@@ -1,0 +1,11 @@
+{
+  "lastChangelogVersion": "0.87.1",
+  "theme": "dark",
+  "packages": [
+    "git:github.com/DietrichGebert/ponytail",
+    "git:github.com/obra/superpowers",
+    "npm:pi-zentui",
+    "npm:@micka33/pi-karpathy-skill",
+    "npm:@upstash/context7-pi"
+  ]
+}
