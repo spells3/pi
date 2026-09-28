@@ -7,7 +7,6 @@ mkdir -p ~/.pi/agent/extensions
 
 # Symlink config files
 ln -sf "$DOTFILES_PI/settings.json"                        ~/.pi/agent/settings.json
-ln -sf "$DOTFILES_PI/models.json"                          ~/.pi/agent/models.json
 ln -sf "$DOTFILES_PI/extensions/behavior-guardrails.ts"    ~/.pi/agent/extensions/behavior-guardrails.ts
 
 echo "Symlinks created."

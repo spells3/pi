@@ -6,6 +6,7 @@
     "git:github.com/obra/superpowers",
     "npm:pi-zentui",
     "npm:@micka33/pi-karpathy-skill",
-    "npm:@upstash/context7-pi"
+    "npm:@upstash/context7-pi",
+    "git:github.com/spells3/pi-template-bridge"
   ]
 }
