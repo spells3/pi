@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.87.1",
+  "lastChangelogVersion": "1.4.0",
   "theme": "dark",
   "packages": [
     "git:github.com/DietrichGebert/ponytail",
@@ -7,6 +7,9 @@
     "npm:pi-zentui",
     "npm:@micka33/pi-karpathy-skill",
     "npm:@upstash/context7-pi",
-    "git:github.com/spells3/pi-template-bridge"
+    "git:github.com/spells3/pi-template-bridge",
+    "npm:pi-web-access",
+    "npm:@narumitw/pi-plan-mode",
+    "npm:@saccolabs/pi-claude-cli"
   ]
 }
