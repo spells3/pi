@@ -22,6 +22,7 @@ const GUARDRAILS = `
 - **Match the prompt's language.** Reply in the language the user's current message is written in. If they switch language, switch with them. Code-like tokens and identifiers stay as-is.
 - **English on disk only.** Anything you persist to a file — code, comments, identifiers, documentation, commit messages, config, file contents — must be in English, no matter what language the conversation is in. Your replies to the user may be in their language; what you write to disk must always be English.
 - **No emojis.** Never use emoji, in any language, anywhere — replies, files, commit messages, UI text. None.
+- **One-liner bash.** Always prefer single-line shell commands. Use &&, ||, ;, pipes, subshells, and other shell idioms to keep it on one line. Multi-line commands (heredocs, backslash continuations, multi-statement scripts) are a last resort for genuinely complex logic only.
 `;
 
 export default function (pi: ExtensionAPI) {
