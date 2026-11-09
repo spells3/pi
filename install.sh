@@ -8,6 +8,7 @@ mkdir -p ~/.pi/agent/extensions
 # Symlink config files
 ln -sf "$DOTFILES_PI/settings.json"                        ~/.pi/agent/settings.json
 ln -sf "$DOTFILES_PI/extensions/behavior-guardrails.ts"    ~/.pi/agent/extensions/behavior-guardrails.ts
+ln -sf  "$DOTFILES_PI/extensions/rtk.ts"                  ~/.pi/agent/extensions/rtk.ts
 ln -sfn "$DOTFILES_PI/extensions/save-plan-dir"           ~/.pi/agent/extensions/save-plan-dir
 
 echo "Symlinks created."
