@@ -27,4 +27,8 @@ for pkg in "${PACKAGES[@]}"; do
     pi install "$pkg"
 done
 
+# Install standalone skills into ~/.agents/skills
+echo "Installing unslop skill..."
+npx -y skills add https://github.com/cursor/plugins --skill unslop -g -a pi -y
+
 echo "Done."
